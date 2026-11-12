@@ -3,7 +3,7 @@ class Solution:
     #     class Solution:
     def validPalindrome(self, s: str) -> bool:
         def check(l,r):
-            while l<r:
+            while l<=r:
                 if s[l]!=s[r]:
                     return False
                 l=l+1
