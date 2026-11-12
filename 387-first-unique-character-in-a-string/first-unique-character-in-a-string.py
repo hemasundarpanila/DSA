@@ -3,10 +3,36 @@ class Solution:
         d={}
         for i in range(len(s)):
             d[s[i]]=d.get(s[i],0)+1
-        for i in range(len(s)):
-            if d[s[i]]==1:
-                return i
+        for j in range(len(s)):
+            if d[s[j]]==1:
+                return j
         return -1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        # d={}
+        # for i in range(len(s)):
+        #     d[s[i]]=d.get(s[i],0)+1
+        # for i in range(len(s)):
+        #     if d[s[i]]==1:
+        #         return i
+        # return -1
+
+
+
+
+
 
         # for i in range(len(s)):
         #     c=0
